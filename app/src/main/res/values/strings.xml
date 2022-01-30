@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Workout Planner</string>
+
+    <!-- Home Page -->
+    <string name="workout_planner">Workout Planner</string>
+    <string name="calendar_text">Calendar</string>
+    <string name="workouts">Workouts</string>
+    <string name="progress_pics">Progress Pictures</string>
+
+    <!-- Calendar Page -->
+    <string name="calendar_placeholder">Please select a date.</string>
+    <string name="view_training">View Training</string>
+    <string name="create_training">Create Training</string>
+
+    <!-- Exercise Page -->
+    <string name="sets">View Sets</string>
+
+    <!-- Exercise Sets Page -->
+    <string name="add_exercise_set">Add set</string>
+
+    <!-- Exercise Sets Form -->
+    <string name="insert_exercise_set">Add Exercise Set</string>
+    <string name="num_of_reps">Number of reps:</string>
+
+    <!-- Create Trainings Form -->
+    <string name="select_training">Select a training:</string>
+
+    <!-- Workouts Page -->
+    <string name="trainings">Trainings</string>
+    <string name="exercises">Exercises</string>
+
+    <!-- Generic card -->
+    <string name="manage">Manage</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+
+    <!-- Trainings Page -->
+    <string name="add_training">Add Training</string>
+
+    <!-- Exercises Page -->
+    <string name="add_exercise">Add Exercise</string>
+
+    <!-- Generic Form -->
+    <string name="save">Save</string>
+    <string name="form_name">Name:</string>
+    
+    <!-- Exercise Form -->
+    <string name="value_type">Value Type:</string>
+    <string name="duration">Duration</string>
+    <string name="weight">Weight</string>
+    <string name="distance">Distance</string>
+
+    <!-- Pictures Page -->
+    <string name="take_pic">Take a picture</string>
+</resources>

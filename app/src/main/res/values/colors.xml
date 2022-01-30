@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="success_btn">#728BC34A</color>
+    <color name="edit_btn">#86FFAE6A</color>
+    <color name="delete_btn">#63FFA7A7</color>
+    <color name="default_btn">#A7BCFF</color>
+</resources>

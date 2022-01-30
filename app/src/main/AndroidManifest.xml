@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projekat">
+
+    <application
+        android:name=".WorkoutApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".calendar.CalendarPage"></activity>
+        <activity android:name=".calendar.TrainingCreateForm"></activity>
+        <activity android:name=".calendar.TrainingViewForm"></activity>
+        <activity android:name=".calendar.ExerciseSetsPage"></activity>
+        <activity android:name=".calendar.ExerciseSetForm"></activity>
+        <activity android:name=".WorkoutsPage"></activity>
+        <activity android:name=".trainings.TrainingsPage"></activity>
+        <activity android:name=".trainings.TrainingManagePage"></activity>
+        <activity android:name=".trainings.TrainingForm"></activity>
+        <activity android:name=".exercises.ExercisesPage"></activity>
+        <activity android:name=".exercises.ExerciseForm"></activity>
+        <activity android:name=".PicturesPage"></activity>
+        <activity android:name=".tablet.ExercisesPageTablet"></activity>
+        <activity android:name=".tablet.TrainingsPageTablet"></activity>
+        <receiver
+            android:name=".notification.NotificationReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <service
+            android:name=".notification.NotificationIntentService"
+            android:exported="false" >
+        </service>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.projekat.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+        </provider>
+    </application>
+
+    <uses-permission android:name="android.permission.CAMERA" android:requiredFeature="true"></uses-permission>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>
